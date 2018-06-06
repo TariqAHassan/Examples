@@ -236,7 +236,7 @@ class Quantize(MuLawTransform):
 
         Returns :
             b_transf : ndarray
-                an ndarry with values on [0, 1].
+                an ndarray with values on [0, 1].
 
         """
         # ToDo: does not work with TF Tensors.
