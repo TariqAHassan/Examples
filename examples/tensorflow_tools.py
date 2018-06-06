@@ -9,7 +9,7 @@ def cast(arr, cast_as, lib=np):
     Args:
         arr : ndarray, tensor
             An array or tensor.
-        cast_as : str, dtype
+        cast_as : str, type
             Type coercion to perform.
         lib : module
             One of `np`, `tf`.
